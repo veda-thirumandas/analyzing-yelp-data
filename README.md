@@ -392,7 +392,7 @@ plt.show()
 
 Before I began to answer my first need, I wanted to verify how accurate my preliminary graphs made in matplotlib was. To do so I exported out a CSV file and use that data in Tableau to generate the graph below (blue dots). I used the following pills; Business Tips Business Reviews, and Business Id. I added Business Tips in the columns and Business Reviews in rows, and then put Business id in detail marks card. In the initial matplotlib graph, I found that there were a lot of outliers with the vast majority of data points in the lower left of the graph. For this reason I decided to focus the Tableau visualization on that corner by moving Business Reviews into the filter tab and manually changed the X axis range to 500 and the Y axis range to 1500. 
 
-![118S_volume_tips_reviews.png](attachment:https://raw.githubusercontent.com/vsthirumandas/analyzing-yelp-data/master/images/118S_volume_tips_reviews.png)
+![/images/118S_volume_tips_reviews.png](attachment:https://raw.githubusercontent.com/vsthirumandas/analyzing-yelp-data/master/images/118S_volume_tips_reviews.png)
 
 ## How many reviews of each rating does each business have?
 
