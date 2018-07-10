@@ -392,7 +392,7 @@ plt.show()
 
 Before I began to answer my first need, I wanted to verify how accurate my preliminary graphs made in matplotlib was. To do so I exported out a CSV file and use that data in Tableau to generate the graph below (blue dots). I used the following pills; Business Tips Business Reviews, and Business Id. I added Business Tips in the columns and Business Reviews in rows, and then put Business id in detail marks card. In the initial matplotlib graph, I found that there were a lot of outliers with the vast majority of data points in the lower left of the graph. For this reason I decided to focus the Tableau visualization on that corner by moving Business Reviews into the filter tab and manually changed the X axis range to 500 and the Y axis range to 1500. 
 
-![/images/118S_volume_tips_reviews.png](attachment:https://raw.githubusercontent.com/vsthirumandas/analyzing-yelp-data/master/images/118S_volume_tips_reviews.png)
+![/images/118S_volume_tips_reviews.png](https://raw.githubusercontent.com/vsthirumandas/analyzing-yelp-data/master/images/118S_volume_tips_reviews.png)
 
 ## How many reviews of each rating does each business have?
 
@@ -790,7 +790,7 @@ plt.show()
 
 Once again, I moved the dataframe into Tableau to visualize it as a bar graph. We can see that there is a steady incline in volume of tips between the average ratings of 1.0 and 4.0. After the average rating of 4.0, the volume of tips begin to decline. 
 
-![118S_tip-volume_stars.png](attachment:118S_tip-volume_stars.png)
+![118S_tip-volume_stars.png](https://raw.githubusercontent.com/vsthirumandas/analyzing-yelp-data/master/images/118S_tip-volume_stars.png)
 
 
 ```python
@@ -812,7 +812,7 @@ plt.show()
 The below graph is a visual representation of the relationship between the tips ratio and average rating. According to this graph, businesses with
 an average rating of 1.0 has the highest ratio of tips. On the contrary, businesses with a higher rating of 4.5 or 5 have the lowest ratio of tips. 
 
-![118S_ratio_stars.png](attachment:118S_ratio_stars.png)
+![118S_ratio_stars.png](https://raw.githubusercontent.com/vsthirumandas/analyzing-yelp-data/master/images/118S_ratio_stars.png)
 
 ## Organize businesses by parent category. 
 
@@ -1058,7 +1058,7 @@ To generate this graph I used two pills, Stars and Ratio. I started first by con
 
 This graph shows the variation of the ratio distributions for each average rating. As you can see, each average ratings’ distribution varies greatly. For example, when you look at the distribution for 5 star ratios in comparison to the distribution for 1 star ratios, you can see that everything from the median value to the max whisker value is very different. 
 
-![118S_ratio_distribution.png](attachment:118S_ratio_distribution.png)
+![118S_ratio_distribution.png](https://raw.githubusercontent.com/vsthirumandas/analyzing-yelp-data/master/images/118S_ratio_distribution.png)
 
 # *Q3: Determine if the higher ratio of tips for each average rating varies by category*
 
@@ -1229,7 +1229,7 @@ df_review_tip_count_stars.show()
     
 
 
-![118S_ratio_category.png](attachment:118S_ratio_category.png)
+![118S_ratio_category.png](https://raw.githubusercontent.com/vsthirumandas/analyzing-yelp-data/master/images/118S_ratio_category.png)
 
 ## Does the percentage of reviews with each rating vary by category?
 
@@ -1282,7 +1282,7 @@ The below 100% bar chart does a great job at showing us that all the categories 
 
 This tells us that there are many more reviews within the 4-5 star range which may be affecting our ratios when we look at it by average rating. 
 
-![118S_rating_count_category.png](attachment:118S_rating_count_category.png)
+![118S_rating_count_category.png](https://raw.githubusercontent.com/vsthirumandas/analyzing-yelp-data/master/images/118S_rating_count_category.png)
 
 ## What is the average ratio for businesses with the same average rating in each category? 
 
@@ -1337,7 +1337,7 @@ To answer the 3rd need, I exported a CSV file from our Jupyter notebook to visua
 
 Based off the visualization, it is clearly seen that each category depicts a great difference in ratios for each average rating. Categories like Active Life and Nightlife have a very high ratio for an average rating of 1.0 while categories like Arts & Entertainment and Home Services depict little to no spike for an average rating of 1.0. 
 
-![118S_ratio_distribution_category.png](attachment:118S_ratio_distribution_category.png)
+![118S_ratio_distribution_category.png](https://raw.githubusercontent.com/vsthirumandas/analyzing-yelp-data/master/images/118S_ratio_distribution_category.png)
 
 # *Putting the analysis together*
 
