@@ -1,17 +1,8 @@
 
-# *Project Description*
-
-This project is my attempt at participating in Yelp's Dataset Challenge for my Big Data Analytics class. Basically Yelp provides a large set of their own data annually for the purpose of giving students an opportunity to analyze and conduct research with it. 
-
-Once I got an understanding as to what type of data Yelp is providing, I decided upon my project needs. By project needs, I'm referring to the questions I aim to answer with my analysis. 
-
-The focus on my project is the relationship between Yelp Tips and Yelp Reviews. 
-
-Here are my three main needs: 
-
-### Q1: Does the volume of tips for a business correlate with the volume of reviews for a business? 
-### Q2: Does a higher ratio of tips correlate with a higher or lower average review ratings? 
-### Q3: Does that vary by category? 
+# Primary Questions: 
+## Q1: Does the volume of tips for a business correlate with the volume of reviews for a business? 
+## Q2: Does a higher ratio of tips correlate with a higher or lower average review ratings? 
+## Q3: Does that vary by category?
 
 
 ```python
