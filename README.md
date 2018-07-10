@@ -1265,7 +1265,7 @@ df_business_sorted_stars.show()
     
 
 
-## * Visualizing the percentage of total reviews per category with each rating*
+## *Visualizing the percentage of total reviews per category with each rating*
 
 Taking into consideration presentation feedback, I wanted to show the relationship between total reviews and each category. I wanted to see the percentage reviews that received each rating. In order to do that, I used the Category, Stars, and Review Count data from a dataframe we exported from our notebook. I placed the Review count pill into the column header. The Category pill was placed into the rows section and finally our Stars pill was placed into the colors mark card to make the data easier to interpret. This graph is visualizing the relation between total reviews and each category. 
 
